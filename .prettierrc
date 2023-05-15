@@ -1,0 +1,32 @@
+{
+    "tabWidth": 4,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "overrides": [
+      {
+        "files": "*.js",
+        "options": {
+          "tabWidth": 2,
+          "singleQuote": true,
+          "trailingComma": "none",
+          "noTrailingWhitespace": true,
+          "spaceBeforeFunctionParen": true
+        }
+      },
+      {
+        "files": "*.css",
+        "options": {
+          "tabWidth": 2,
+          "semi": true
+        }
+      },
+      {
+        "files": "*.html",
+        "options": {
+          "tabWidth": 4,
+          "semi": true
+        }
+      }
+    ]
+  }
